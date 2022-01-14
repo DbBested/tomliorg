@@ -1,0 +1,112 @@
+﻿body {
+}
+h1 {
+    color: dimgrey;
+    font-family: GoldLeaf;
+    text-align: center;
+    font-size: 60px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+}
+h2 {
+    color: dimgrey;
+    font-family: GoldLeaf;
+    background-color: ghostwhite;
+    text-align: left;
+    font-size: 40px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+}
+h3 {
+    color: dimgrey;
+    font-family: GoldLeaf;
+    background-color: ghostwhite;
+    text-align: right;
+    font-size: 40px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+}
+text2 {
+    color: darkgrey;
+    font-family: GoldLeaf;
+    text-align: left;
+    font-size: 25px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+}
+text3 {
+    color: darkgrey;
+    font-family: GoldLeaf;
+    text-align: right;
+    font-size: 25px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+}
+html {
+    background-color: ghostwhite;
+}   
+@font-face {
+    font-family: GoldLeaf;
+    src: url('resources/GoldleafBoldPersonalUseBold-eZ4dO.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
